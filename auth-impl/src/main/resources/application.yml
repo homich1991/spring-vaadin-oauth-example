@@ -1,0 +1,11 @@
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: clientsecret
+      scope: read,write
+      auto-approve-scopes: '.*'
+
+logging:
+  level:
+    org.springframework.security: DEBUG

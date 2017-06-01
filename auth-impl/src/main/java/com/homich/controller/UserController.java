@@ -8,7 +8,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * @author Roman_Meerson
+ *
  */
 @RestController
 public class UserController {

@@ -1,0 +1,15 @@
+info.build.version: @project.version@
+
+server:
+  port: 9999
+  context-path: /client
+
+security:
+  oauth2:
+    client:
+      clientId: client
+      clientSecret: clientsecret
+      accessTokenUri: http://localhost:8080/oauth/token
+      userAuthorizationUri: http://localhost:8080/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:8080/me

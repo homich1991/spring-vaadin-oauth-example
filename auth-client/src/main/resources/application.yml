@@ -10,6 +10,10 @@ security:
       clientId: client
       clientSecret: clientsecret
       accessTokenUri: http://localhost:8080/oauth/token
-      userAuthorizationUri: http://localhost:8080/oauth/authorize
+      userAuthorizationUri: http://localhost:8080/login
     resource:
-      userInfoUri: http://localhost:8080/me
+      userInfoUri: http://localhost:8080/api/me
+
+logging:
+  level:
+    org.springframework.security: DEBUG

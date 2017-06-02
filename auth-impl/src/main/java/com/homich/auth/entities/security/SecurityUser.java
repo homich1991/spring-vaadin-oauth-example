@@ -1,4 +1,4 @@
-package com.homich.entities.security;
+package com.homich.auth.entities.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;

@@ -1,4 +1,4 @@
-package com.homich.controller;
+package com.homich.client.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.homich.config;
+package com.homich.auth.config;
 
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.context.annotation.Bean;

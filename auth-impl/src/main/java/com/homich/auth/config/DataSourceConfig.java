@@ -1,6 +1,6 @@
-package com.homich.config;
+package com.homich.auth.config;
 
-import com.homich.entities.Model;
+import com.homich.auth.entities.Model;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;

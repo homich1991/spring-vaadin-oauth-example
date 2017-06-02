@@ -1,7 +1,7 @@
-package com.homich.ui;
+package com.homich.auth.ui;
 
-import com.homich.entities.User;
-import com.homich.repositories.UserRepository;
+import com.homich.auth.entities.User;
+import com.homich.auth.repositories.UserRepository;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
 import com.vaadin.event.ShortcutAction;

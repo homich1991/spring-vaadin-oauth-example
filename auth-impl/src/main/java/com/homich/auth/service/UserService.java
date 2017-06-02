@@ -1,4 +1,4 @@
-package com.homich.service;
+package com.homich.auth.service;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 

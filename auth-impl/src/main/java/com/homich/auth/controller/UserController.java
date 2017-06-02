@@ -1,4 +1,4 @@
-package com.homich.controller;
+package com.homich.auth.controller;
 
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.web.bind.annotation.RequestMapping;

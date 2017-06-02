@@ -1,10 +1,11 @@
-package com.homich.service.impl;
+package com.homich.auth.service.impl;
 
-import com.homich.entities.Role;
-import com.homich.entities.User;
-import com.homich.entities.security.SecurityUser;
-import com.homich.repositories.UserRepository;
-import com.homich.service.UserService;
+
+import com.homich.auth.entities.Role;
+import com.homich.auth.entities.User;
+import com.homich.auth.entities.security.SecurityUser;
+import com.homich.auth.repositories.UserRepository;
+import com.homich.auth.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;

@@ -1,4 +1,4 @@
-package com.homich.entities;
+package com.homich.auth.entities;
 
 import lombok.Getter;
 import lombok.Setter;

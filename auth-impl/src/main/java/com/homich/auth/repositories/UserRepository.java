@@ -1,6 +1,6 @@
-package com.homich.repositories;
+package com.homich.auth.repositories;
 
-import com.homich.entities.User;
+import com.homich.auth.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
